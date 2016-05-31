@@ -177,16 +177,6 @@
                                 </subviews>
                                 <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxO-0q-5WR">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
-                                <state key="normal" title="Surivial Mode">
-                                    <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Vq0-Te-sPK" kind="show" identifier="SurivialMode" id="NYU-Xv-tyL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Pp-ii-9my">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
@@ -195,6 +185,19 @@
                                 </state>
                                 <connections>
                                     <segue destination="Vq0-Te-sPK" kind="show" identifier="Time Attack" id="szr-ad-hyd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxO-0q-5WR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <state key="normal" title="Survival Mode">
+                                    <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="113" y="134" width="175" height="45"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Vq0-Te-sPK" kind="show" identifier="SurvivalMode" id="NYU-Xv-tyL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -219,8 +222,8 @@
                             <mask key="subviews">
                                 <exclude reference="RaP-Kd-ZXR"/>
                                 <exclude reference="9AV-ED-vL3"/>
-                                <exclude reference="uxO-0q-5WR"/>
                                 <exclude reference="2Pp-ii-9my"/>
+                                <exclude reference="uxO-0q-5WR"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="YS0-lO-IAY"/>
@@ -241,8 +244,8 @@
                             <mask key="subviews">
                                 <include reference="RaP-Kd-ZXR"/>
                                 <include reference="9AV-ED-vL3"/>
-                                <include reference="uxO-0q-5WR"/>
                                 <include reference="2Pp-ii-9my"/>
+                                <include reference="uxO-0q-5WR"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="YS0-lO-IAY"/>
@@ -440,12 +443,12 @@
                                 <exclude reference="Yel-dr-hrO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3jr-TU-ZY7"/>
-                                <exclude reference="tyf-bg-vGu"/>
                                 <exclude reference="HOB-bY-gUE"/>
                                 <exclude reference="cKO-HF-7cD"/>
                                 <exclude reference="eGx-1X-vSJ"/>
                                 <exclude reference="luI-lm-dUF"/>
+                                <exclude reference="3jr-TU-ZY7"/>
+                                <exclude reference="tyf-bg-vGu"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -457,20 +460,20 @@
                                 <include reference="Yel-dr-hrO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3jr-TU-ZY7"/>
-                                <include reference="tyf-bg-vGu"/>
                                 <include reference="HOB-bY-gUE"/>
                                 <include reference="cKO-HF-7cD"/>
                                 <include reference="eGx-1X-vSJ"/>
                                 <include reference="luI-lm-dUF"/>
+                                <include reference="3jr-TU-ZY7"/>
+                                <include reference="tyf-bg-vGu"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="ScoreLabel" destination="XW9-ag-C4h" id="Bxa-YX-QsB"/>
-                        <outletCollection property="ImageButtonArray" destination="nI7-PA-NWx" collectionClass="NSMutableArray" id="5xF-qU-vBn"/>
-                        <outletCollection property="ImageButtonArray" destination="n9s-Gh-VHP" collectionClass="NSMutableArray" id="v33-oB-JGh"/>
-                        <outletCollection property="ImageButtonArray" destination="Yel-dr-hrO" collectionClass="NSMutableArray" id="ipM-jB-z3W"/>
+                        <outletCollection property="ImageButtonArray" destination="nI7-PA-NWx" collectionClass="NSMutableArray" id="4mi-lY-2Ke"/>
+                        <outletCollection property="ImageButtonArray" destination="n9s-Gh-VHP" collectionClass="NSMutableArray" id="Kom-G2-8NZ"/>
+                        <outletCollection property="ImageButtonArray" destination="Yel-dr-hrO" collectionClass="NSMutableArray" id="OwB-2o-cnS"/>
                         <segue destination="Clu-WD-Gfv" kind="show" identifier="GameOverSegue" id="KaE-t6-yDN"/>
                     </connections>
                 </viewController>
@@ -493,100 +496,94 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameover" translatesAutoresizingMaskIntoConstraints="NO" id="6yL-NZ-gCj">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhp-xd-MwW">
-                                <rect key="frame" x="20" y="20" width="150" height="40"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="65"/>
-                                <state key="normal" title="Game Over">
-                                    <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGF-Kn-POH">
-                                <rect key="frame" x="20" y="20" width="150" height="40"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="45"/>
-                                <state key="normal" title="Game Mode: ">
-                                    <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhx-3I-ndQ">
-                                <rect key="frame" x="20" y="20" width="150" height="40"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="48"/>
-                                <state key="normal" title="Score:">
-                                    <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDX-n7-gHS" userLabel="Highest Score:">
-                                <rect key="frame" x="20" y="20" width="150" height="40"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="42"/>
-                                <state key="normal" title="Highest Score:">
-                                    <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHf-7p-r2n">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="56"/>
+                                <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fob-u5-fGA">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="44"/>
+                                <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highest Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5or-rj-d9N">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="39"/>
+                                <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Mode: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLg-i4-gNU">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="44"/>
+                                <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mhp-xd-MwW" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="Ail-9J-UEm"/>
+                            <constraint firstItem="Fob-u5-fGA" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="2lT-xq-JhR"/>
+                            <constraint firstItem="5or-rj-d9N" firstAttribute="top" secondItem="VLg-i4-gNU" secondAttribute="bottom" constant="25" id="5ob-XH-G0C"/>
+                            <constraint firstItem="VLg-i4-gNU" firstAttribute="top" secondItem="CHf-7p-r2n" secondAttribute="bottom" constant="28" id="B5h-zo-nIR"/>
                             <constraint firstItem="6yL-NZ-gCj" firstAttribute="leading" secondItem="g0v-3C-swN" secondAttribute="leading" id="FGG-Te-T4n"/>
-                            <constraint firstItem="eDX-n7-gHS" firstAttribute="top" secondItem="fGF-Kn-POH" secondAttribute="bottom" constant="23" id="HxM-vM-sze"/>
                             <constraint firstItem="6yL-NZ-gCj" firstAttribute="top" secondItem="g0v-3C-swN" secondAttribute="top" id="Kc8-lS-jeW"/>
-                            <constraint firstItem="fGF-Kn-POH" firstAttribute="top" secondItem="mhp-xd-MwW" secondAttribute="bottom" constant="62" id="MD6-Tx-DqG"/>
-                            <constraint firstItem="eDX-n7-gHS" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="MIz-ca-qzi"/>
-                            <constraint firstItem="mhp-xd-MwW" firstAttribute="centerX" secondItem="fGF-Kn-POH" secondAttribute="centerX" id="NXa-E8-1Ji"/>
-                            <constraint firstItem="eDX-n7-gHS" firstAttribute="leading" secondItem="fGF-Kn-POH" secondAttribute="leading" id="RZr-44-Y9c"/>
-                            <constraint firstItem="hhx-3I-ndQ" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="SIL-U1-Hqf"/>
-                            <constraint firstItem="fGF-Kn-POH" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="dtM-K7-ULU"/>
-                            <constraint firstItem="hhx-3I-ndQ" firstAttribute="top" secondItem="eDX-n7-gHS" secondAttribute="bottom" constant="31" id="nJr-Ge-c4u"/>
-                            <constraint firstItem="mhp-xd-MwW" firstAttribute="top" secondItem="skp-SM-vhA" secondAttribute="bottom" constant="55" id="uBQ-TE-uME"/>
-                            <constraint firstItem="hhx-3I-ndQ" firstAttribute="leading" secondItem="eDX-n7-gHS" secondAttribute="leading" id="xEi-dI-QBa"/>
+                            <constraint firstItem="5or-rj-d9N" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="KxZ-Fh-bzj"/>
+                            <constraint firstItem="VLg-i4-gNU" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="LNc-Pq-ynK"/>
+                            <constraint firstItem="CHf-7p-r2n" firstAttribute="centerX" secondItem="g0v-3C-swN" secondAttribute="centerX" id="WIT-cH-7MT"/>
+                            <constraint firstItem="CHf-7p-r2n" firstAttribute="top" secondItem="skp-SM-vhA" secondAttribute="bottom" constant="75" id="WrR-Lf-Jal">
+                                <variation key="heightClass=regular-widthClass=compact" constant="76"/>
+                            </constraint>
+                            <constraint firstItem="Fob-u5-fGA" firstAttribute="top" secondItem="5or-rj-d9N" secondAttribute="bottom" constant="39" id="lru-te-Ba7"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="6yL-NZ-gCj"/>
-                                <exclude reference="mhp-xd-MwW"/>
-                                <exclude reference="fGF-Kn-POH"/>
-                                <exclude reference="hhx-3I-ndQ"/>
-                                <exclude reference="eDX-n7-gHS"/>
+                                <exclude reference="CHf-7p-r2n"/>
+                                <exclude reference="Fob-u5-fGA"/>
+                                <exclude reference="5or-rj-d9N"/>
+                                <exclude reference="VLg-i4-gNU"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="HxM-vM-sze"/>
-                                <exclude reference="MIz-ca-qzi"/>
-                                <exclude reference="RZr-44-Y9c"/>
-                                <exclude reference="MD6-Tx-DqG"/>
-                                <exclude reference="dtM-K7-ULU"/>
-                                <exclude reference="SIL-U1-Hqf"/>
-                                <exclude reference="nJr-Ge-c4u"/>
-                                <exclude reference="xEi-dI-QBa"/>
-                                <exclude reference="Ail-9J-UEm"/>
-                                <exclude reference="NXa-E8-1Ji"/>
-                                <exclude reference="uBQ-TE-uME"/>
                                 <exclude reference="FGG-Te-T4n"/>
                                 <exclude reference="Kc8-lS-jeW"/>
+                                <exclude reference="WIT-cH-7MT"/>
+                                <exclude reference="WrR-Lf-Jal"/>
+                                <exclude reference="B5h-zo-nIR"/>
+                                <exclude reference="LNc-Pq-ynK"/>
+                                <exclude reference="5ob-XH-G0C"/>
+                                <exclude reference="KxZ-Fh-bzj"/>
+                                <exclude reference="2lT-xq-JhR"/>
+                                <exclude reference="lru-te-Ba7"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="6yL-NZ-gCj"/>
-                                <include reference="mhp-xd-MwW"/>
-                                <include reference="fGF-Kn-POH"/>
-                                <include reference="hhx-3I-ndQ"/>
-                                <include reference="eDX-n7-gHS"/>
+                                <include reference="CHf-7p-r2n"/>
+                                <include reference="Fob-u5-fGA"/>
+                                <include reference="5or-rj-d9N"/>
+                                <include reference="VLg-i4-gNU"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="HxM-vM-sze"/>
-                                <include reference="MIz-ca-qzi"/>
-                                <include reference="RZr-44-Y9c"/>
-                                <include reference="MD6-Tx-DqG"/>
-                                <include reference="dtM-K7-ULU"/>
-                                <include reference="SIL-U1-Hqf"/>
-                                <include reference="nJr-Ge-c4u"/>
-                                <include reference="xEi-dI-QBa"/>
-                                <include reference="Ail-9J-UEm"/>
-                                <include reference="NXa-E8-1Ji"/>
-                                <include reference="uBQ-TE-uME"/>
                                 <include reference="FGG-Te-T4n"/>
                                 <include reference="Kc8-lS-jeW"/>
+                                <include reference="WIT-cH-7MT"/>
+                                <include reference="WrR-Lf-Jal"/>
+                                <include reference="B5h-zo-nIR"/>
+                                <include reference="LNc-Pq-ynK"/>
+                                <include reference="5ob-XH-G0C"/>
+                                <include reference="KxZ-Fh-bzj"/>
+                                <include reference="2lT-xq-JhR"/>
+                                <include reference="lru-te-Ba7"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="GameModeLabel" destination="VLg-i4-gNU" id="8pt-2Y-xIY"/>
+                        <outlet property="HighestScoreLabel" destination="5or-rj-d9N" id="a7x-jm-l9j"/>
+                        <outlet property="ScoreLabel" destination="Fob-u5-fGA" id="Py7-ax-ovB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4G-8J-XoN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -738,6 +735,6 @@
         <image name="story" width="499" height="889"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="An4-Ra-eo2"/>
+        <segue reference="NYU-Xv-tyL"/>
     </inferredMetricsTieBreakers>
 </document>

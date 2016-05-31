@@ -17,6 +17,7 @@ class GameViewController: UIViewController {
     
     // to store array of imagebutton
     @IBOutlet var ImageButtonArray: [UIButton]!
+
     
     // to link the score label to controller
     @IBOutlet weak var ScoreLabel: UILabel!
@@ -129,9 +130,8 @@ class GameViewController: UIViewController {
     // this function will be called if the player has pressed the wrong button
     func gameOver(sender:UIButton){
         // switch to gameover veiw
-        print("Switch here")
+        print("gg")
         performSegueWithIdentifier("GameOverSegue", sender: sender)
-        print("bug thread?")
         // to free up all thread
         for index in 0...animationtimer.count-1{
             animationtimer[index].invalidate()
@@ -140,7 +140,6 @@ class GameViewController: UIViewController {
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let svc = segue.destinationViewController as! GameOverViewController;
-        print("gg")
         svc.score=gamedata.getScore()
         svc.gamemode=gamemode;
     }

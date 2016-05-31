@@ -12,7 +12,7 @@ import UIKit
 class GameOverViewController: UIViewController {
     var score:Int = 0;
     var gamemode:String=String();
-    
+
     @IBOutlet weak var GameModeLabel: UILabel!
     @IBOutlet weak var HighestScoreLabel: UILabel!
     @IBOutlet weak var ScoreLabel: UILabel!
