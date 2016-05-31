@@ -193,9 +193,6 @@
                                 <state key="normal" title="Survival Mode">
                                     <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="113" y="134" width="175" height="45"/>
-                                </variation>
                                 <connections>
                                     <segue destination="Vq0-Te-sPK" kind="show" identifier="SurvivalMode" id="NYU-Xv-tyL"/>
                                 </connections>
@@ -516,7 +513,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Mode: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLg-i4-gNU">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="44"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                 <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
