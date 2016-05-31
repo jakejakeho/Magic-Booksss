@@ -504,18 +504,12 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="44"/>
                                 <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="127" y="418" width="147" height="53"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highest Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5or-rj-d9N">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="39"/>
                                 <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="58" y="335" width="284" height="47"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Mode: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUw-PE-uu9">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -528,9 +522,6 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                 <color key="textColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="98" y="271" width="204" height="39"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -560,18 +551,18 @@
                                 <exclude reference="VLg-i4-gNU"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="FGG-Te-T4n"/>
-                                <exclude reference="Kc8-lS-jeW"/>
-                                <exclude reference="WIT-cH-7MT"/>
-                                <exclude reference="WrR-Lf-Jal"/>
-                                <exclude reference="ZeH-2e-cuD"/>
-                                <exclude reference="nV5-Fq-CpZ"/>
-                                <exclude reference="LNc-Pq-ynK"/>
-                                <exclude reference="hzX-JL-Z7b"/>
                                 <exclude reference="5ob-XH-G0C"/>
                                 <exclude reference="KxZ-Fh-bzj"/>
+                                <exclude reference="WIT-cH-7MT"/>
+                                <exclude reference="WrR-Lf-Jal"/>
                                 <exclude reference="2lT-xq-JhR"/>
                                 <exclude reference="lru-te-Ba7"/>
+                                <exclude reference="LNc-Pq-ynK"/>
+                                <exclude reference="hzX-JL-Z7b"/>
+                                <exclude reference="ZeH-2e-cuD"/>
+                                <exclude reference="nV5-Fq-CpZ"/>
+                                <exclude reference="FGG-Te-T4n"/>
+                                <exclude reference="Kc8-lS-jeW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -584,18 +575,18 @@
                                 <include reference="VLg-i4-gNU"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="FGG-Te-T4n"/>
-                                <include reference="Kc8-lS-jeW"/>
-                                <include reference="WIT-cH-7MT"/>
-                                <include reference="WrR-Lf-Jal"/>
-                                <include reference="ZeH-2e-cuD"/>
-                                <include reference="nV5-Fq-CpZ"/>
-                                <include reference="LNc-Pq-ynK"/>
-                                <include reference="hzX-JL-Z7b"/>
                                 <include reference="5ob-XH-G0C"/>
                                 <include reference="KxZ-Fh-bzj"/>
+                                <include reference="WIT-cH-7MT"/>
+                                <include reference="WrR-Lf-Jal"/>
                                 <include reference="2lT-xq-JhR"/>
                                 <include reference="lru-te-Ba7"/>
+                                <include reference="LNc-Pq-ynK"/>
+                                <include reference="hzX-JL-Z7b"/>
+                                <include reference="ZeH-2e-cuD"/>
+                                <include reference="nV5-Fq-CpZ"/>
+                                <include reference="FGG-Te-T4n"/>
+                                <include reference="Kc8-lS-jeW"/>
                             </mask>
                         </variation>
                     </view>
