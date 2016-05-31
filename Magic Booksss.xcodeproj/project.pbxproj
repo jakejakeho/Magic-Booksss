@@ -68,8 +68,8 @@
 				23B628F31CFC221500687B82 /* GameModel.swift */,
 				23FC3FB61CFBF57700CFFFD5 /* GameViewController.swift */,
 				23FC3FB41CFBF39900CFFFD5 /* GameModeViewController.swift */,
-				236E34B51CFB128D00618A94 /* Assets.xcassets */,
 				2354D2011CFDD7830056AD3B /* Main.storyboard */,
+				236E34B51CFB128D00618A94 /* Assets.xcassets */,
 				236E34B71CFB128D00618A94 /* LaunchScreen.storyboard */,
 				236E34BA1CFB128D00618A94 /* Info.plist */,
 			);
