@@ -501,9 +501,6 @@
                                 <state key="normal" title="Game Mode: ">
                                     <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="32" y="227" width="338" height="70"/>
-                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhx-3I-ndQ">
                                 <rect key="frame" x="20" y="20" width="150" height="40"/>
@@ -511,9 +508,6 @@
                                 <state key="normal" title="Score:">
                                     <color key="titleColor" red="0.4431372549" green="0.33725490200000002" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="32" y="421" width="338" height="70"/>
-                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDX-n7-gHS" userLabel="Highest Score:">
                                 <rect key="frame" x="20" y="20" width="150" height="40"/>
