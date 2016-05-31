@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2315183B1CFDA73000BE0F1B /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315183A1CFDA73000BE0F1B /* GameOverViewController.swift */; };
+		2354D2021CFDD7830056AD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2354D2011CFDD7830056AD3B /* Main.storyboard */; };
 		236E34AF1CFB128D00618A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E34AE1CFB128D00618A94 /* AppDelegate.swift */; };
 		236E34B11CFB128D00618A94 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E34B01CFB128D00618A94 /* MainViewController.swift */; };
 		236E34B61CFB128D00618A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236E34B51CFB128D00618A94 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2315183A1CFDA73000BE0F1B /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		2354D2011CFDD7830056AD3B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		236E34AB1CFB128D00618A94 /* Magic Booksss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Booksss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236E34AE1CFB128D00618A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		236E34B01CFB128D00618A94 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				23FC3FB61CFBF57700CFFFD5 /* GameViewController.swift */,
 				23FC3FB41CFBF39900CFFFD5 /* GameModeViewController.swift */,
 				236E34B51CFB128D00618A94 /* Assets.xcassets */,
+				2354D2011CFDD7830056AD3B /* Main.storyboard */,
 				236E34B71CFB128D00618A94 /* LaunchScreen.storyboard */,
 				236E34BA1CFB128D00618A94 /* Info.plist */,
 			);
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2354D2021CFDD7830056AD3B /* Main.storyboard in Resources */,
 				236E34B91CFB128D00618A94 /* LaunchScreen.storyboard in Resources */,
 				236E34B61CFB128D00618A94 /* Assets.xcassets in Resources */,
 			);
