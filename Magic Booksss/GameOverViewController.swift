@@ -25,7 +25,7 @@ class GameOverViewController: UIViewController {
             defaults.setInteger(score, forKey: "highscore")
         }
         let highscoreshow=defaults.integerForKey("highscore")
-        GameModeLabel.text = ("Game Mode: ")+gamemode;
+        GameModeLabel.text = gamemode;
         HighestScoreLabel.text = ("Highest Score: ")+String(highscoreshow);
         ScoreLabel.text = ("Score:")+String(score);
         
