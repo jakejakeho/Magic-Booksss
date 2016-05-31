@@ -64,9 +64,9 @@
 			children = (
 				236E34AE1CFB128D00618A94 /* AppDelegate.swift */,
 				236E34B01CFB128D00618A94 /* MainViewController.swift */,
-				2315183A1CFDA73000BE0F1B /* GameOverViewController.swift */,
 				23B628F31CFC221500687B82 /* GameModel.swift */,
 				23FC3FB61CFBF57700CFFFD5 /* GameViewController.swift */,
+				2315183A1CFDA73000BE0F1B /* GameOverViewController.swift */,
 				23FC3FB41CFBF39900CFFFD5 /* GameModeViewController.swift */,
 				2354D2011CFDD7830056AD3B /* Main.storyboard */,
 				236E34B51CFB128D00618A94 /* Assets.xcassets */,

@@ -168,6 +168,7 @@ class GameViewController: UIViewController {
             
             // if it is a correct which is not cliked
             if (gamedata.isCorrect(i!)){
+                print("no click correct")
                 gameOver(ImageButtonArray[i!]);
             }
             
